@@ -3,8 +3,8 @@ package altimetrik.trip.model;
 import java.util.List;
 
 import lombok.Data;
-
-@Data
+import lombok.Getter;
+@Getter
 public class FlightData {
 	private String origin;
 	private String currency;
@@ -20,32 +20,5 @@ public class FlightData {
 		this.currency = currency;
 		this.results = results;
 	}
-
-	public String getOrigin() {
-		return origin;
-	}
-
-	public void setOrigin(String origin) {
-		this.origin = origin;
-	}
-	public String getCurrency() {
-		return currency;
-	}
-
-	public void setCurrency(String currency) {
-		this.currency = currency;
-	}
-
-	public List<Result> getResults() {
-		return results;
-	}
-
-	public void setResults(List<Result> results) {
-		this.results = results;
-	}
-	
-	
-	
-	
 
 }

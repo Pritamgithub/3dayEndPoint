@@ -1,5 +1,5 @@
 package altimetrik.trip.model;
 
-public class Pritam {
+public class CarData {
 
 }
